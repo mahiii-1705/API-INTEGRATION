@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>India News | NewsPulse</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1><span>India</span>News</h1>
+    <nav>
+      <ul>
+        <li onclick="loadNews('top')">Top</li>
+        <li onclick="loadNews('sports')">Sports</li>
+        <li onclick="loadNews('technology')">Technology</li>
+        <li onclick="loadNews('politics')">Politics</li>
+        <li onclick="loadNews('world')">World</li>
+        <li onclick="loadNews('business')">Business</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="loader" class="loader"></div>
+    <div id="newsContainer" class="news-container"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 NewsPulse India. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
